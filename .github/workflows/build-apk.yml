@@ -1,4 +1,4 @@
-name: ame: Build SmartReply AI APK for Pixel 6a
+name: Build SmartReply AI APK for Pixel 6a
 
 on:
   push:
