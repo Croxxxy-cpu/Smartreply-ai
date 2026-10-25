@@ -24,7 +24,7 @@ jobs:
           gradle-version: '8.7'
 
       - name: Build Debug APK
-        run: ./gradlew :app:assembleDebug
+        run: .gradle assembleDebug.
 
       - name: Upload Ready-to-Install Pixel 6a APK
         uses: actions/upload-artifact@v4
